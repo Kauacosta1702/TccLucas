@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections;
+using Unity.Cinemachine;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -15,6 +16,9 @@ public class DialogueManager : MonoBehaviour
 
     [Header("Configurações")]
     public float typingSpeed = 0.03f;
+
+    [Header("Controle de Câmera")]
+    public CinemachineInputAxisController cameraInputController;
 
     private DialogueLine[] currentLines;
     private int currentIndex = 0;
@@ -54,6 +58,15 @@ public class DialogueManager : MonoBehaviour
         currentLines = data.lines;
         currentIndex = 0;
         dialogueBox.SetActive(true);
+
+        // Trava a câmera
+        if (cameraInputController != null)
+            cameraInputController.enabled = false;
+
+        // Libera o cursor do mouse pra aparecer na tela
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
         ShowLine();
     }
 
@@ -107,6 +120,14 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         dialogueBox.SetActive(false);
+
+        // Reativa a câmera
+        if (cameraInputController != null)
+            cameraInputController.enabled = true;
+
+        // Trava o cursor de novo (volta pro modo de jogo)
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     public bool IsDialogueActive()

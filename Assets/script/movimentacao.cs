@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class movimentacao : MonoBehaviour
 {
-    public float velocidade = 10.0f;
-    public float velocidadeRotacao = 20f;
+    public float velocidade = 5.0f;
+    public float velocidadeRotacao = 10f;
 
     private Rigidbody rb;
     private Transform cameraTransform;
@@ -23,6 +23,12 @@ public class movimentacao : MonoBehaviour
 
     void Update()
     {
+        // Se o diálogo estiver ativo, não processa movimento nenhum
+        if (DialogueManager.Instance != null && DialogueManager.Instance.IsDialogueActive())
+        {
+            return;
+        }
+
         float movimentoHorizontal = Input.GetAxis("Horizontal");
         float movimentoVertical = Input.GetAxis("Vertical");
 
@@ -40,7 +46,6 @@ public class movimentacao : MonoBehaviour
             rb.MovePosition(transform.position + deslocamento);
         }
 
-        // O personagem SEMPRE encara a direção da câmera (yaw), não a direção do movimento
         Quaternion rotacaoAlvo = Quaternion.Euler(0, cameraTransform.eulerAngles.y, 0);
         transform.rotation = Quaternion.Slerp(transform.rotation, rotacaoAlvo, Time.deltaTime * velocidadeRotacao);
     }
