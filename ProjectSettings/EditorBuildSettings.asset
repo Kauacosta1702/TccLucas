@@ -8,5 +8,20 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Peru.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Canada.unity
+    guid: 69efbc26f80f85a4ba9b91e9a053b730
+  - enabled: 1
+    path: Assets/Scenes/Italia.unity
+    guid: 232eaa2f9cea7a146961ba2d2e37e729
+  - enabled: 1
+    path: Assets/Scenes/Marrocos.unity
+    guid: 9dc4974979937f34a9bd3de29b208e89
+  - enabled: 1
+    path: Assets/Scenes/India.unity
+    guid: fa474e2a8d24e92459c50b161d9d2a6f
+  - enabled: 1
+    path: Assets/Scenes/RestauranteCanada.unity
+    guid: 690c08a23a3cd7b4f8c2c57e43681de0
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
