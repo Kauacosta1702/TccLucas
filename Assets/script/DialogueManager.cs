@@ -8,6 +8,9 @@ public class DialogueManager : MonoBehaviour
 {
     public static DialogueManager Instance;
 
+    // EVENTO QUE AVISA QUANDO O DIÁLOGO ACABA
+    public static event System.Action OnDialogueFinished;
+
     [Header("Referências de UI")]
     public GameObject dialogueBox;
     public TMP_Text nameText;
@@ -31,12 +34,13 @@ public class DialogueManager : MonoBehaviour
 
     void Start()
     {
-        dialogueBox.SetActive(false);
+        if (dialogueBox != null)
+            dialogueBox.SetActive(false);
     }
 
     void Update()
     {
-        if (!dialogueBox.activeSelf) return;
+        if (dialogueBox == null || !dialogueBox.activeSelf) return;
 
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetKeyDown(KeyCode.E))
         {
@@ -57,13 +61,12 @@ public class DialogueManager : MonoBehaviour
     {
         currentLines = data.lines;
         currentIndex = 0;
-        dialogueBox.SetActive(true);
+        if (dialogueBox != null)
+            dialogueBox.SetActive(true);
 
-        // Trava a câmera
         if (cameraInputController != null)
             cameraInputController.enabled = false;
 
-        // Libera o cursor do mouse pra aparecer na tela
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
 
@@ -119,19 +122,21 @@ public class DialogueManager : MonoBehaviour
 
     void EndDialogue()
     {
-        dialogueBox.SetActive(false);
+        if (dialogueBox != null)
+            dialogueBox.SetActive(false);
 
-        // Reativa a câmera
         if (cameraInputController != null)
             cameraInputController.enabled = true;
 
-        // Trava o cursor de novo (volta pro modo de jogo)
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
+        // DISPARA O EVENTO INFORMANDO QUE O DIÁLOGO ACABOU
+        OnDialogueFinished?.Invoke();
     }
 
     public bool IsDialogueActive()
     {
-        return dialogueBox.activeSelf;
+        return dialogueBox != null && dialogueBox.activeSelf;
     }
 }
