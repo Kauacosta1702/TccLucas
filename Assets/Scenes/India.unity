@@ -2505,8 +2505,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 68.867065, y: -189.65424}
-  m_SizeDelta: {x: 258.0871, y: 57.0748}
+  m_AnchoredPosition: {x: -223, y: -189.17084}
+  m_SizeDelta: {x: 319.0656, y: 58.0416}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &315401502
 MonoBehaviour:
@@ -4513,13 +4513,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 524848687}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.27469173, y: 0.6515708, z: -0.27469173, w: 0.6515708}
-  m_LocalPosition: {x: -28.19, y: 5.24, z: 40.16}
+  m_LocalRotation: {x: 0.32650557, y: 0.6272114, z: -0.32650557, w: 0.6272114}
+  m_LocalPosition: {x: -27.99, y: 5.33, z: 40.16}
   m_LocalScale: {x: 0, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 45.719, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 55, y: 90, z: 0}
 --- !u!1001 &527754504
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9244,7 +9244,7 @@ Transform:
   m_GameObject: {fileID: 1319215480}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0.7071068, w: 0}
-  m_LocalPosition: {x: 3.26, y: 98, z: 11.17}
+  m_LocalPosition: {x: -7, y: 98, z: 11.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12445,7 +12445,7 @@ MonoBehaviour:
   cameraBancada: {fileID: 524848688}
   interactionPrompt: {fileID: 1449781175}
   minimapObjeto: {fileID: 1689958377}
-  interactionRange: 300
+  interactionRange: 15
 --- !u!1001 &1791915501
 PrefabInstance:
   m_ObjectHideFlags: 0

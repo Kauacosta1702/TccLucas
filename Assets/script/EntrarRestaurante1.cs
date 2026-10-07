@@ -5,8 +5,7 @@ public class EntrarRestaurante1 : MonoBehaviour
 {
     public GameObject interactionPrompt; // O Canvas "Aperte E para entrar"
     public float interactionRange = 3f;
-    public string RestauranteCanada; // Nome exato da cena que vai carregar
-
+    public string Restaurante;
     private Transform player;
     private bool playerInRange = false;
 
@@ -42,7 +41,7 @@ public class EntrarRestaurante1 : MonoBehaviour
 
         if (playerInRange && Input.GetKeyDown(KeyCode.E))
         {
-            SceneManager.LoadScene(RestauranteCanada);
+            SceneManager.LoadScene(Restaurante);
         }
     }
 }

@@ -26,5 +26,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RestauranteCanada.unity
     guid: 690c08a23a3cd7b4f8c2c57e43681de0
+  - enabled: 1
+    path: Assets/Scenes/RestauranteMarrocos.unity
+    guid: 989313a3ec5082642862a6c1187204c7
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

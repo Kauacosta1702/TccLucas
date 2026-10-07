@@ -2499,7 +2499,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &648368930
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4190,7 +4190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EntrarRestaurante1
   interactionPrompt: {fileID: 139626565}
   interactionRange: 80
-  RestauranteCanada: RestauranteCanada
+  Restaurante: RestauranteCanada
 --- !u!1001 &1051623294
 PrefabInstance:
   m_ObjectHideFlags: 0

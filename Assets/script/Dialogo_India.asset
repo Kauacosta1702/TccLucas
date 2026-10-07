@@ -13,22 +13,9 @@ MonoBehaviour:
   m_Name: Dialogo_India
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   lines:
-  - characterName: Lucas
-    text: "Estrangeiro, voc\xEA finalmente acordou. Sabe onde estamos?"
-    portrait: {fileID: 0}
-  - characterName: fabio
-    text: "N\xE3o tenho ideia... o \xFAltimo lugar que me lembro era a faculdade."
-    portrait: {fileID: 0}
-  - characterName: Lucas
-    text: "Isso aqui \xE9 o mundo gerado pelo seu pr\xF3prio c\xF3digo. Cuidado com
-      os bugs."
-    portrait: {fileID: 0}
-  - characterName: fabio
-    text: "Bugs? Tipo monstros ou erros de l\xF3gica?"
-    portrait: {fileID: 0}
   - characterName: lucas
-    text: "Ambos. \xC9 melhor testar o seu sistema antes que eles nos apaguem!"
+    text: tudo bem?
     portrait: {fileID: 0}
-  - characterName: fabio
-    text: faaaaaaaaaaa que triste
+  - characterName: Prya
+    text: simmmmmmmmmmmm
     portrait: {fileID: 0}

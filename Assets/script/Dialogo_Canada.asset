@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: add8175faaba1ef4590039e14dd4c779, type: 3}
+  m_Name: Dialogo_Canada
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - characterName: Lucas
+    text: "Estrangeiro, voc\xEA finalmente acordou. Sabe onde estamos?"
+    portrait: {fileID: 0}
+  - characterName: fabio
+    text: "N\xE3o tenho ideia... o \xFAltimo lugar que me lembro era a faculdade."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Isso aqui \xE9 o mundo gerado pelo seu pr\xF3prio c\xF3digo. Cuidado com
+      os bugs."
+    portrait: {fileID: 0}
+  - characterName: fabio
+    text: "Bugs? Tipo monstros ou erros de l\xF3gica?"
+    portrait: {fileID: 0}
+  - characterName: lucas
+    text: "Ambos. \xC9 melhor testar o seu sistema antes que eles nos apaguem!"
+    portrait: {fileID: 0}
+  - characterName: fabio
+    text: faaaaaaaaaaa que triste
+    portrait: {fileID: 0}

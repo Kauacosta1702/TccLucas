@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: add8175faaba1ef4590039e14dd4c779, type: 3}
+  m_Name: Dialogo_Marrocos
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - characterName: Hassan
+    text: "Ol\xE1, seja bem-vindo, meu jovem!"
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Ol\xE1, senhor Hassan."
+    portrait: {fileID: 0}
+  - characterName: Hassan
+    text: "Voc\xEA queria falar comigo?"
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Sim. Eu sou o Lucas, muito prazer. Meu av\xF4 esteve aqui alguns anos
+      atr\xE1s."
+    portrait: {fileID: 0}
+  - characterName: Hassan
+    text: "Seu av\xF4? Quem \xE9 ele?"
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "\"Benedito. Mas talvez voc\xEA o conhe\xE7a como Tito."
+    portrait: {fileID: 0}
+  - characterName: Hassan
+    text: Tito! Claro que me lembro dele. Era um velho amigo.
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Sim... Infelizmente, ele faleceu no come\xE7o deste ano."
+    portrait: {fileID: 0}
+  - characterName: Hassan
+    text: Sinto muito, Lucas. Meus sentimentos.
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: Muito obrigado, Hassan.
+    portrait: {fileID: 0}
+  - characterName: Hassan
+    text: "Mas me diga, o que trouxe voc\xEA at\xE9 aqui?"
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "O restaurante da minha fam\xEDlia est\xE1 quase fechando. Ent\xE3o decidi
+      seguir os passos do meu av\xF4 e viajar em busca de uma forma de salv\xE1-lo."
+    portrait: {fileID: 0}
+  - characterName: Hassan
+    text: "Uma bela maneira de homenage\xE1-lo. E encontrou o que estava procurando?"
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Acho que sim. O restaurante sempre foi vegetariano, mas agora quero transform\xE1-lo
+      em um restaurante vegano."
+    portrait: {fileID: 0}
+  - characterName: Hassan
+    text: "Vegano? Interessante... E por que essa mudan\xE7a?"
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Bom, no meu \xFAltimo destino eu pude ter contato direto coma culin\xE1ria
+      vegana e vi que ela pode ser muito mais ampla e criativa do que eu imaginava.
+      Acho que essa pode ser a chance que o restaurante estava precisando."
+    portrait: {fileID: 0}
+  - characterName: Hassan
+    text: "Ent\xE3o talvez voc\xEA n\xE3o esteja apenas seguindo os passos do seu
+      av\xF4. Talvez esteja come\xE7ando o seu pr\xF3prio caminho."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "\xC9... acho que ele gostaria disso."
+    portrait: {fileID: 0}
+  - characterName: Hassan
+    text: "E voc\xEA j\xE1 tem onde ficar?"
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Ainda n\xE3o. Eu estava pensando em procurar algum lugar por aqui."
+    portrait: {fileID: 0}
+  - characterName: Hassan
+    text: "Ent\xE3o n\xE3o precisa procurar. Est\xE1 convidado para ficar na minha
+      casa."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "S\xE9rio? Muito obrigado, senhor Hassan!"
+    portrait: {fileID: 0}
+  - characterName: Hassan
+    text: "Senhor Hassan? Ha ha! Pode me chamar s\xF3 de Hassan."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: Ha ha, combinado, Hassan.
+    portrait: {fileID: 0}
+  - characterName: Hassan
+    text: "Lucas, voc\xEA tem muito talento na cozinha. Por isso, quero te fazer
+      um pedido especial."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: Muito obrigado, Hassan. Que pedido seria?
+    portrait: {fileID: 0}
+  - characterName: Hassan
+    text: "Quero que voc\xEA crie um prato autoral em homenagem ao seu av\xF4 e me
+      deixe coloc\xE1-lo no card\xE1pio do meu restaurante."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Um prato em homenagem ao meu av\xF4?"
+    portrait: {fileID: 0}
+  - characterName: Hassan
+    text: "Sim. Tito foi um grande amigo e merece ser lembrado. E acho que n\xE3o
+      existe forma melhor de homenage\xE1-lo do que atrav\xE9s daquilo que ele amava."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: Cozinhar...
+    portrait: {fileID: 0}
+  - characterName: Hassan
+    text: Exatamente. O que acha?
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: Eu adoraria. Vou fazer algo que ele teria orgulho de provar.
+    portrait: {fileID: 0}
+  - characterName: Hassan
+    text: "Ent\xE3o temos um acordo. Agora s\xF3 falta descobrir qual ser\xE1 esse
+      prato."
+    portrait: {fileID: 0}
