@@ -12,7 +12,7 @@ public class Billboard : MonoBehaviour
     void LateUpdate()
     {
         Vector3 direction = cam.position - transform.position;
-        direction.y = 0; // Trava a rotação vertical, só gira no eixo Y (horizontal)
+        direction.y = 0;
 
         if (direction.sqrMagnitude > 0.001f)
         {

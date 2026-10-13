@@ -8,7 +8,7 @@ public class DialogueManager : MonoBehaviour
 {
     public static DialogueManager Instance;
 
-    // EVENTO QUE AVISA QUANDO O DIÁLOGO ACABA
+    
     public static event System.Action OnDialogueFinished;
 
     [Header("Referências de UI")]
@@ -131,7 +131,7 @@ public class DialogueManager : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
-        // DISPARA O EVENTO INFORMANDO QUE O DIÁLOGO ACABOU
+        
         OnDialogueFinished?.Invoke();
     }
 

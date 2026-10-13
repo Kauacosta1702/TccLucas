@@ -4,7 +4,7 @@ using Unity.Cinemachine;
 public class BancadaCozinha : MonoBehaviour
 {
     [Header("Configurações do Diálogo")]
-    public DialogueData dialogueData; // Arraste o 'dialogo_fa' aqui!
+    public DialogueData dialogueData;
     private bool dialogoJaOcorreu = false;
     private bool aguardandoFimDoDialogo = false;
 
@@ -12,11 +12,11 @@ public class BancadaCozinha : MonoBehaviour
     public CinemachineCamera cameraBancada;
 
     [Header("UI e Elementos")]
-    public GameObject interactionPrompt; // Ex: "Aperte E"
+    public GameObject interactionPrompt;
     public GameObject minimapObjeto;
 
     [Header("Configuração de Distância")]
-    public float interactionRange = 5f; // Distância segura
+    public float interactionRange = 5f;
 
     private Transform player;
     private bool playerInRange = false;
@@ -39,7 +39,7 @@ public class BancadaCozinha : MonoBehaviour
         float distance = Vector3.Distance(transform.position, player.position);
         bool inRangeNow = distance <= interactionRange;
 
-        // Verifica se o DialogueManager existe e se o diálogo está aberto na tela
+        
         bool dialogoAtivo = DialogueManager.Instance != null && DialogueManager.Instance.IsDialogueActive();
 
         // Se estávamos esperando o diálogo acabar e agora ele fechou
@@ -50,7 +50,7 @@ public class BancadaCozinha : MonoBehaviour
             return;
         }
 
-        // Se NÃO estamos no modo cozinha e NÃO há diálogo ativo
+        
         if (!emModoCozinha && !dialogoAtivo)
         {
             if (inRangeNow && !playerInRange)
@@ -71,7 +71,7 @@ public class BancadaCozinha : MonoBehaviour
             {
                 if (!dialogoJaOcorreu)
                 {
-                    // Primeira vez: Inicia o diálogo
+                    
                     if (interactionPrompt != null)
                         interactionPrompt.SetActive(false);
 
@@ -88,7 +88,7 @@ public class BancadaCozinha : MonoBehaviour
                 }
                 else
                 {
-                    // Vezes seguintes: Vai direto para o modo cozinha
+                    
                     EntrarModoCozinha();
                 }
             }
@@ -108,7 +108,7 @@ public class BancadaCozinha : MonoBehaviour
         emModoCozinha = true;
 
         if (cameraBancada != null)
-            cameraBancada.Priority = 20; // Ativa a câmera da bancada
+            cameraBancada.Priority = 20; 
 
         if (interactionPrompt != null)
             interactionPrompt.SetActive(false);
@@ -129,7 +129,7 @@ public class BancadaCozinha : MonoBehaviour
         emModoCozinha = false;
 
         if (cameraBancada != null)
-            cameraBancada.Priority = 0; // Devolve a prioridade para a câmera normal
+            cameraBancada.Priority = 0;
 
         if (minimapObjeto != null)
             minimapObjeto.SetActive(true);

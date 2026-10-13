@@ -44,15 +44,15 @@ public class movimentacao : MonoBehaviour
 
             direcaoMovimento = (frenteCamera * movimentoVertical + direitaCamera * movimentoHorizontal).normalized;
 
-            // Rotação visual suave (só fora do diálogo)
+            
             Quaternion rotacaoAlvo = Quaternion.Euler(0, cameraTransform.eulerAngles.y, 0);
             transform.rotation = Quaternion.Slerp(transform.rotation, rotacaoAlvo, Time.deltaTime * velocidadeRotacao);
         }
 
-        // Gravidade manual (CharacterController não tem física própria)
+        // Gravidade
         if (controller.isGrounded && velocidadeVertical < 0f)
         {
-            velocidadeVertical = -2f; // mantém colado no chão
+            velocidadeVertical = -2f;
         }
         velocidadeVertical += gravidade * Time.deltaTime;
 

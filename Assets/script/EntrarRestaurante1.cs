@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class EntrarRestaurante1 : MonoBehaviour
 {
-    public GameObject interactionPrompt; // O Canvas "Aperte E para entrar"
+    public GameObject interactionPrompt;
     public float interactionRange = 3f;
     public string Restaurante;
     private Transform player;

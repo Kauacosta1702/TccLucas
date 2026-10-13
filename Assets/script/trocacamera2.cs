@@ -39,10 +39,10 @@ public class trocacamera2 : MonoBehaviour
         float distance = Vector3.Distance(transform.position, player.position);
         bool inRangeNow = distance <= interactionRange;
 
-        // Verifica se o DialogueManager existe e se o diálogo está rodando na tela
+        
         bool dialogoAtivo = DialogueManager.Instance != null && DialogueManager.Instance.IsDialogueActive();
 
-        // Se o jogo estava esperando o diálogo acabar e agora ele ficou falso (acabou)
+        
         if (esperandoFimDialogo && !dialogoAtivo)
         {
             esperandoFimDialogo = false;
@@ -65,7 +65,7 @@ public class trocacamera2 : MonoBehaviour
                     interactionPrompt.SetActive(false);
             }
 
-            // Se apertar E perto da bancada
+            
             if (playerInRange && Input.GetKeyDown(KeyCode.E))
             {
                 if (!dialogoJaOcorreu)
@@ -76,7 +76,7 @@ public class trocacamera2 : MonoBehaviour
                     if (interactionPrompt != null)
                         interactionPrompt.SetActive(false);
 
-                    // Inicia o diálogo com segurança
+                    
                     if (DialogueManager.Instance != null)
                     {
                         DialogueManager.Instance.StartDialogue(dialogueData);

@@ -256,6 +256,63 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!1001 &343258577
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 02ac0ffa9d5e8c1428252bf872af8513, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -114.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02ac0ffa9d5e8c1428252bf872af8513, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.05662074
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02ac0ffa9d5e8c1428252bf872af8513, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 63.4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02ac0ffa9d5e8c1428252bf872af8513, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02ac0ffa9d5e8c1428252bf872af8513, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02ac0ffa9d5e8c1428252bf872af8513, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02ac0ffa9d5e8c1428252bf872af8513, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02ac0ffa9d5e8c1428252bf872af8513, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02ac0ffa9d5e8c1428252bf872af8513, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 02ac0ffa9d5e8c1428252bf872af8513, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 02ac0ffa9d5e8c1428252bf872af8513, type: 3}
+      propertyPath: m_Name
+      value: CasaRamdom1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 02ac0ffa9d5e8c1428252bf872af8513, type: 3}
 --- !u!1001 &394534809
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -304,10 +361,58 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7918335002988649766, guid: 70604a9356ba08347a24dd2559781c5c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 25706763f96504a42978348c74b22e7d, type: 2}
+    - target: {fileID: -7664728788398519507, guid: 70604a9356ba08347a24dd2559781c5c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 50172acc7b4ce50439fe3896aff1f775, type: 2}
+    - target: {fileID: -4683669308469848369, guid: 70604a9356ba08347a24dd2559781c5c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5aeb8edc6b4110747862ece6ddc62325, type: 2}
+    - target: {fileID: -1461304994638716399, guid: 70604a9356ba08347a24dd2559781c5c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 92bf5f24c395c71409ceecd4fca4df98, type: 2}
+    - target: {fileID: -804731622281664130, guid: 70604a9356ba08347a24dd2559781c5c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 50172acc7b4ce50439fe3896aff1f775, type: 2}
+    - target: {fileID: -678588488315902003, guid: 70604a9356ba08347a24dd2559781c5c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 50172acc7b4ce50439fe3896aff1f775, type: 2}
+    - target: {fileID: 882129737928793925, guid: 70604a9356ba08347a24dd2559781c5c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 25706763f96504a42978348c74b22e7d, type: 2}
     - target: {fileID: 919132149155446097, guid: 70604a9356ba08347a24dd2559781c5c, type: 3}
       propertyPath: m_Name
       value: CasaPeru1
       objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: 70604a9356ba08347a24dd2559781c5c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 50172acc7b4ce50439fe3896aff1f775, type: 2}
+    - target: {fileID: 6829333093618665122, guid: 70604a9356ba08347a24dd2559781c5c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 50172acc7b4ce50439fe3896aff1f775, type: 2}
+    - target: {fileID: 7339356831882890532, guid: 70604a9356ba08347a24dd2559781c5c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 25706763f96504a42978348c74b22e7d, type: 2}
+    - target: {fileID: 8100320773420232829, guid: 70604a9356ba08347a24dd2559781c5c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 50172acc7b4ce50439fe3896aff1f775, type: 2}
+    - target: {fileID: 8442510506162454399, guid: 70604a9356ba08347a24dd2559781c5c, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 92bf5f24c395c71409ceecd4fca4df98, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -401,7 +506,7 @@ Light:
   serializedVersion: 13
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 2
+  m_Intensity: 0
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -596,10 +701,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4683669308469848369, guid: 2fc9dad74604ccc4e827a374e5a3c657, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 410225684da47c044a73cd89ef535491, type: 2}
+    - target: {fileID: -1823322365421230674, guid: 2fc9dad74604ccc4e827a374e5a3c657, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b671cbe1eb1ae7c408e35c6daba5fd36, type: 2}
+    - target: {fileID: -1461304994638716399, guid: 2fc9dad74604ccc4e827a374e5a3c657, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3a141ea0dafdbd84da65cbfe34a37907, type: 2}
+    - target: {fileID: -678588488315902003, guid: 2fc9dad74604ccc4e827a374e5a3c657, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3a141ea0dafdbd84da65cbfe34a37907, type: 2}
     - target: {fileID: 919132149155446097, guid: 2fc9dad74604ccc4e827a374e5a3c657, type: 3}
       propertyPath: m_Name
       value: CasaPeru3
       objectReference: {fileID: 0}
+    - target: {fileID: 6317578925029434746, guid: 2fc9dad74604ccc4e827a374e5a3c657, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3a141ea0dafdbd84da65cbfe34a37907, type: 2}
+    - target: {fileID: 8442510506162454399, guid: 2fc9dad74604ccc4e827a374e5a3c657, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b671cbe1eb1ae7c408e35c6daba5fd36, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -903,6 +1032,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7918335002988649766, guid: f9752481c7e9d1a45a6a98972421b105, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 3a141ea0dafdbd84da65cbfe34a37907, type: 2}
+    - target: {fileID: -4683669308469848369, guid: f9752481c7e9d1a45a6a98972421b105, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 92bf5f24c395c71409ceecd4fca4df98, type: 2}
+    - target: {fileID: -1461304994638716399, guid: f9752481c7e9d1a45a6a98972421b105, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5aeb8edc6b4110747862ece6ddc62325, type: 2}
+    - target: {fileID: -678588488315902003, guid: f9752481c7e9d1a45a6a98972421b105, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5aeb8edc6b4110747862ece6ddc62325, type: 2}
     - target: {fileID: 919132149155446097, guid: f9752481c7e9d1a45a6a98972421b105, type: 3}
       propertyPath: m_Name
       value: ultimacasaaa
@@ -926,3 +1071,4 @@ SceneRoots:
   - {fileID: 409123385}
   - {fileID: 1737174233}
   - {fileID: 1979867622}
+  - {fileID: 343258577}
