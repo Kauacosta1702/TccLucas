@@ -13,22 +13,88 @@ MonoBehaviour:
   m_Name: Dialogo_Canada
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   lines:
-  - characterName: Lucas
-    text: "Estrangeiro, voc\xEA finalmente acordou. Sabe onde estamos?"
-    portrait: {fileID: 0}
-  - characterName: fabio
-    text: "N\xE3o tenho ideia... o \xFAltimo lugar que me lembro era a faculdade."
+  - characterName: Camille
+    text: "Ol\xE1, seja bem-vindo! Eu sou a Camille, muito prazer."
     portrait: {fileID: 0}
   - characterName: Lucas
-    text: "Isso aqui \xE9 o mundo gerado pelo seu pr\xF3prio c\xF3digo. Cuidado com
-      os bugs."
+    text: Oi! Prazer, eu sou o Lucas.
     portrait: {fileID: 0}
-  - characterName: fabio
-    text: "Bugs? Tipo monstros ou erros de l\xF3gica?"
+  - characterName: Camille
+    text: "\xC9 a sua primeira vez aqui no meu restaurante?"
     portrait: {fileID: 0}
-  - characterName: lucas
-    text: "Ambos. \xC9 melhor testar o seu sistema antes que eles nos apaguem!"
+  - characterName: Lucas
+    text: "Sim. Eu sou brasileiro e essa \xE9 a minha primeira vez no Canad\xE1."
     portrait: {fileID: 0}
-  - characterName: fabio
-    text: faaaaaaaaaaa que triste
+  - characterName: Camille
+    text: "Ah, que legal! Espero que esteja gostando de conhecer o pa\xEDs."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Sim, estou gostando bastante. \xC9 tudo bem diferente do que eu estou
+      acostumado."
+    portrait: {fileID: 0}
+  - characterName: Camille
+    text: "E o que voc\xEA veio fazer aqui no Canad\xE1?"
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Eu estou estudando a culin\xE1ria de alguns pa\xEDses para buscar inspira\xE7\xF5es
+      para o restaurante da minha fam\xEDlia."
+    portrait: {fileID: 0}
+  - characterName: Camille
+    text: "Uau, que incr\xEDvel! Voc\xEA tamb\xE9m trabalha com culin\xE1ria."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Sim, e eu estou ajudando a trazer algumas ideias novas para o card\xE1pio
+      do restaurante."
+    portrait: {fileID: 0}
+  - characterName: Camille
+    text: "Olha, Lucas, ent\xE3o eu tenho uma \xF3tima not\xEDcia para voc\xEA. Eu
+      estou precisando de ajuda aqui no restaurante hoje, e j\xE1 que voc\xEA est\xE1
+      querendo aprender..."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "\xC9 s\xE9rio? Eu adoraria ajudar!"
+    portrait: {fileID: 0}
+  - characterName: Camille
+    text: Pois bien, hoje temos bastante coisa para fazer por aqui, haha.
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: Pode deixar, eu vou ajudar no que puder.
+    portrait: {fileID: 0}
+  - characterName: Camille
+    text: "Ah, s\xF3 mais um detalhe: este \xE9 um restaurante vegetariano. Ent\xE3o,
+      hoje n\xF3s vamos adaptar algumas receitas tradicionais canadenses para os
+      nossos convidados."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Ah, que \xF3timo! Eu sou vegetariano tamb\xE9m."
+    portrait: {fileID: 0}
+  - characterName: Camille
+    text: "Que legal! Voc\xEA veio ao lugar certo. Vamos come\xE7ar?"
+    portrait: {fileID: 0}
+  - characterName: Camille
+    text: "Ah, que \xF3timo! Eu sou vegetariano tamb\xE9m."
+    portrait: {fileID: 0}
+  - characterName: Camille
+    text: "Ah, que \xF3timo! Eu sou vegetariano tamb\xE9m."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Ah, que \xF3timo! Eu sou vegetariano tamb\xE9m."
+    portrait: {fileID: 0}
+  - characterName: Camille
+    text: "Que legal! Voc\xEA veio ao lugar certo. Vamos come\xE7ar?"
+    portrait: {fileID: 0}
+  - characterName: Camille
+    text: "Lucas, eu gostaria que voc\xEA me ajudasse a preparar o Nanaimo Bar, que
+      \xE9 um doce t\xEDpico canadense. Ela \xE9 feita com uma base de bolacha, uma
+      camada de creme e, por cima, uma cobertura de chocolate."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: Ah, tudo bem! Onde ficam os ingredientes?
+    portrait: {fileID: 0}
+  - characterName: Camille
+    text: "J\xE1 est\xE3o todos separados naquela bancada. Pode pegar o que precisar
+      e come\xE7ar por l\xE1."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: OK!
     portrait: {fileID: 0}
