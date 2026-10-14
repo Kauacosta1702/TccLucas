@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: add8175faaba1ef4590039e14dd4c779, type: 3}
+  m_Name: Dialogo_Peru
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - characterName: Cliente
+    text: "Me falaram que o seu ceviche \xE9 o melhor da regi\xE3o."
+    portrait: {fileID: 0}
+  - characterName: Elena
+    text: "Fico feliz que tenham falado t\xE3o bem!"
+    portrait: {fileID: 0}
+  - characterName: Cliente
+    text: "Eu adoraria provar, mas n\xE3o como peixe."
+    portrait: {fileID: 0}
+  - characterName: Elena
+    text: Justo o ingrediente principal do ceviche, haha.
+    portrait: {fileID: 0}
+  - characterName: Cliente
+    text: "Pois \xE9. Mas ser\xE1 que n\xE3o d\xE1 para adaptar a receita?"
+    portrait: {fileID: 0}
+  - characterName: Elena
+    text: "Olha, eu nunca fiz um ceviche sem peixe. N\xE3o sei se ficaria bom."
+    portrait: {fileID: 0}
+  - characterName: Cliente
+    text: "Voc\xEA n\xE3o poderia tentar? Eu queria muito provar a sua comida."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Oi! Desculpa me intrometer, mas acho que posso ajudar. No restaurante
+      onde trabalho, fazemos pratos vegetarianos e talvez eu conhe\xE7a um bom substituto
+      para o peixe."
+    portrait: {fileID: 0}
+  - characterName: Elena
+    text: "Ent\xE3o vamos tentar!"
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Se voltar daqui a uns 40 minutos, teremos um ceviche para voc\xEA provar."
+    portrait: {fileID: 0}

@@ -14,8 +14,50 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DialogueData
   lines:
   - characterName: lucas
-    text: tudo bem?
+    text: "Ol\xE1, bom dia! Que aromas incr\xEDveis voc\xEAs t\xEAm por aqui. "
     portrait: {fileID: 0}
   - characterName: Prya
-    text: simmmmmmmmmmmm
+    text: " Ol\xE1, seja bem-vindo! Muito obrigada. Tudo o que servimos aqui \xE9
+      preparado com muito carinho para a nossa comunidade. "
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Que demais! Voc\xEAs trabalham como um projeto comunit\xE1rio? "
+    portrait: {fileID: 0}
+  - characterName: Prya
+    text: "Sim! N\xF3s somos uma ONG local e preparamos refei\xE7\xF5es para ajudar
+      a comunidade da regi\xE3o. "
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Vi algumas coisas sobre iniciativas assim na internet, mas n\xE3o conhe\xE7o
+      muito. Voc\xEA pode me contar mais? "
+    portrait: {fileID: 0}
+  - characterName: Prya
+    text: "Claro! N\xF3s preparamos e distribu\xEDmos refei\xE7\xF5es diariamente
+      aqui na feira. Todos os volunt\xE1rios ajudam a manter a barraca funcionando. "
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Que iniciativa incr\xEDvel! E eu poderia ajudar em alguma coisa por aqui
+      hoje? "
+    portrait: {fileID: 0}
+  - characterName: Prya
+    text: "Com certeza! Toda ajuda \xE9 muito bem-vinda. Voc\xEA leva jeito para
+      a cozinha? "
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: 'Sim, eu adorei a ideia! Posso ajudar no preparo dos pratos? '
+    portrait: {fileID: 0}
+  - characterName: Prya
+    text: "\xD3timo, claro que sim! S\xF3 uma coisa: aqui nossa cozinha \xE9 totalmente
+      vegana. "
+    portrait: {fileID: 0}
+  - characterName: Prya
+    text: "\xD3timo, claro que sim! S\xF3 uma coisa: aqui nossa cozinha \xE9 totalmente
+      vegana. "
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Que incr\xEDvel! Eu sou vegetariano, ent\xE3o acho que vou gostar dessa
+      experi\xEAncia. "
+    portrait: {fileID: 0}
+  - characterName: Prya
+    text: 'Tenho certeza que sim. Espero que se sinta em casa por aqui. '
     portrait: {fileID: 0}

@@ -9,7 +9,7 @@ public class MenuManager : MonoBehaviour
 
     public void Jogar()
     {
-        SceneManager.LoadScene("Canada");
+        SceneManager.LoadScene("Peru");
     }
 
     public void AbrirOpçoes()
