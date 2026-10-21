@@ -8,6 +8,7 @@ public class movimentacao : MonoBehaviour
     public float gravidade = -20f;
 
     private CharacterController controller;
+    private Animator anim;
     private Transform cameraTransform;
     private Vector3 direcaoMovimento;
     private float velocidadeVertical;
@@ -15,6 +16,7 @@ public class movimentacao : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        anim = GetComponent<Animator>();
 
         if (Camera.main != null)
         {
@@ -44,7 +46,6 @@ public class movimentacao : MonoBehaviour
 
             direcaoMovimento = (frenteCamera * movimentoVertical + direitaCamera * movimentoHorizontal).normalized;
 
-            
             Quaternion rotacaoAlvo = Quaternion.Euler(0, cameraTransform.eulerAngles.y, 0);
             transform.rotation = Quaternion.Slerp(transform.rotation, rotacaoAlvo, Time.deltaTime * velocidadeRotacao);
         }
@@ -60,5 +61,11 @@ public class movimentacao : MonoBehaviour
         movimentoFinal.y = velocidadeVertical;
 
         controller.Move(movimentoFinal * Time.deltaTime);
+
+        // Animação
+        if (anim != null)
+        {
+            anim.SetBool("andando", direcaoMovimento.sqrMagnitude > 0.01f);
+        }
     }
 }
