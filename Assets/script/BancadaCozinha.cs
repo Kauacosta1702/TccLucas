@@ -1,5 +1,6 @@
-using UnityEngine;
+using Cozinha;
 using Unity.Cinemachine;
+using UnityEngine;
 
 public class BancadaCozinha : MonoBehaviour
 {
@@ -17,6 +18,9 @@ public class BancadaCozinha : MonoBehaviour
 
     [Header("Configuração de Distância")]
     public float interactionRange = 5f;
+
+    [Header("Cozinha")]
+    public CozinhaManager cozinhaManager;
 
     private Transform player;
     private bool playerInRange = false;
@@ -39,7 +43,7 @@ public class BancadaCozinha : MonoBehaviour
         float distance = Vector3.Distance(transform.position, player.position);
         bool inRangeNow = distance <= interactionRange;
 
-        
+
         bool dialogoAtivo = DialogueManager.Instance != null && DialogueManager.Instance.IsDialogueActive();
 
         // Se estávamos esperando o diálogo acabar e agora ele fechou
@@ -50,7 +54,7 @@ public class BancadaCozinha : MonoBehaviour
             return;
         }
 
-        
+
         if (!emModoCozinha && !dialogoAtivo)
         {
             if (inRangeNow && !playerInRange)
@@ -71,7 +75,7 @@ public class BancadaCozinha : MonoBehaviour
             {
                 if (!dialogoJaOcorreu)
                 {
-                    
+
                     if (interactionPrompt != null)
                         interactionPrompt.SetActive(false);
 
@@ -88,7 +92,7 @@ public class BancadaCozinha : MonoBehaviour
                 }
                 else
                 {
-                    
+
                     EntrarModoCozinha();
                 }
             }
@@ -108,7 +112,7 @@ public class BancadaCozinha : MonoBehaviour
         emModoCozinha = true;
 
         if (cameraBancada != null)
-            cameraBancada.Priority = 20; 
+            cameraBancada.Priority = 20;
 
         if (interactionPrompt != null)
             interactionPrompt.SetActive(false);
@@ -122,11 +126,19 @@ public class BancadaCozinha : MonoBehaviour
             if (movScript != null)
                 movScript.enabled = false;
         }
+
+        // Mostra o aviso "Aperte R para começar a cozinhar"
+        if (cozinhaManager != null)
+            cozinhaManager.AbrirMesa();
     }
 
     void SairModoCozinha()
     {
         emModoCozinha = false;
+
+        // Esconde os painéis e para a cozinha
+        if (cozinhaManager != null)
+            cozinhaManager.Sair();
 
         if (cameraBancada != null)
             cameraBancada.Priority = 0;
