@@ -60,11 +60,8 @@ namespace Cozinha
                     (aguardandoInicio || (cozinhando && terminou)))
                     Iniciar();
             }
-            if (!cozinhando)
-            {
-                textoMensagem.text = "";
-                return;
-            }
+            if (!cozinhando) return;
+
             if (terminou || Time.timeScale == 0) return;
 
             tempoRestante = Mathf.Max(0, tempoRestante - Time.deltaTime);
