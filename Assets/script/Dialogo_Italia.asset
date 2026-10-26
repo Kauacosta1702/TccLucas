@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: add8175faaba1ef4590039e14dd4c779, type: 3}
+  m_Name: Dialogo_Italia
+  m_EditorClassIdentifier: Assembly-CSharp::DialogueData
+  lines:
+  - characterName: Matteo
+    text: "Ciao! Bem-vindo \xE0 Trattoria da fam\xEDlia Ferrari! J\xE1 conhece o
+      nosso card\xE1pio ou veio se perder nas massas?"
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Ha ha, ainda n\xE3o conhe\xE7o. Voc\xEA tem alguma recomenda\xE7\xE3o?"
+    portrait: {fileID: 0}
+  - characterName: Matteo
+    text: "Claro! Meu preferido \xE9 o Bucatini all'amatriciana. \xC9 simplesmente
+      perfeito."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: O que tem nele?
+    portrait: {fileID: 0}
+  - characterName: Matteo
+    text: "\xC9 tipo um spaghetti... s\xF3 que melhor. Muito melhor."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Nossa, voc\xEA tem bastante confian\xE7a nesse prato."
+    portrait: {fileID: 0}
+  - characterName: Matteo
+    text: "Confian\xE7a n\xE3o. Experi\xEAncia! Eu praticamente cresci comendo isso."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Ent\xE3o acho que vou ter que provar."
+    portrait: {fileID: 0}
+  - characterName: Matteo
+    text: Excelente escolha! Ah, mas desculpa, nem perguntei seu nome.
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Eu sou o Lucas. E voc\xEA?"
+    portrait: {fileID: 0}
+  - characterName: Matteo
+    text: "Matteo. Prazer! Voc\xEA n\xE3o \xE9 italiano, n\xE3o \xE9?"
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "N\xE3o, sou brasileiro."
+    portrait: {fileID: 0}
+  - characterName: Matteo
+    text: "Brasil? Sempre quis conhecer! Dizem que a comida de voc\xEAs tamb\xE9m
+      \xE9 muito boa."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Nossa comida \xE9 INCR\xCDVEL! Quando for, pode me chamar para ser seu
+      guia, haha."
+    portrait: {fileID: 0}
+  - characterName: Matteo
+    text: "Combinado! E eu te ensino a diferen\xE7a entre uma massa de verdade e
+      um macarr\xE3o qualquer."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: Ha ha, fechado.
+    portrait: {fileID: 0}
+  - characterName: Matteo
+    text: "Ent\xE3o, vai querer o Bucatini?"
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Vou sim. S\xF3 tem um detalhe: eu sou vegetariano."
+    portrait: {fileID: 0}
+  - characterName: Matteo
+    text: "Ah, ent\xE3o voc\xEA deu sorte! Temos algumas op\xE7\xF5es vegetarianas
+      no card\xE1pio."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "S\xE9rio? Melhor ainda."
+    portrait: {fileID: 0}
+  - characterName: Matteo
+    text: "Claro! Aqui ningu\xE9m fica sem comer. Principalmente quando tem massa
+      envolvida."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Ha ha, ent\xE3o acho que vou gostar daqui."
+    portrait: {fileID: 0}
+  - characterName: Matteo
+    text: "\xD3bvio! Nossa pizza \xE9 t\xE3o boa que at\xE9 os italianos daqui ficam
+      com inveja."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: Serio? Ja esta ate me dando agua na boca.
+    portrait: {fileID: 0}
+  - characterName: Matteo
+    text: Mas cara sabe... eu tenho uma proposta... um tanto inusitada.
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: Como assim?
+    portrait: {fileID: 0}
+  - characterName: Matteo
+    text: "Pensei aqui... voc\xEA \xE9 brasileiro, n\xE9? O pessoal do Brasil costuma
+      entender muito de hospitalidade e culin\xE1ria. Voc\xEA sabe cozinhar, n\xE3o
+      sabe?"
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Mais ou menos. Por qu\xEA?"
+    portrait: {fileID: 0}
+  - characterName: Matteo
+    text: "A casa est\xE1 lotada e, para ser sincero, eu n\xE3o nasci com o dom da
+      cozinha."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Voc\xEA \xE9 o dono da trattoria e n\xE3o sabe cozinhar?"
+    portrait: {fileID: 0}
+  - characterName: Matteo
+    text: "Ei, cada um tem seu talento! O meu \xE9 convencer os clientes a comerem."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "Ha ha. E voc\xEA sabe que eu sou vegetariano, n\xE9?"
+    portrait: {fileID: 0}
+  - characterName: Matteo
+    text: "Claro! Relaxa, n\xE3o vou te colocar para preparar carne. Hoje voc\xEA
+      fica respons\xE1vel pelos pratos vegetarianos."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: Assim eu aceito.
+    portrait: {fileID: 0}
+  - characterName: Matteo
+    text: "Perfeito! No fim do expediente, voc\xEA ainda ganha uma pizza."
+    portrait: {fileID: 0}
+  - characterName: Lucas
+    text: "A\xED voc\xEA apelou."
+    portrait: {fileID: 0}
+  - characterName: Matteo
+    text: "Eu conhe\xE7o meus clientes."
+    portrait: {fileID: 0}
