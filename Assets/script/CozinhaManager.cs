@@ -3,6 +3,7 @@ using TMPro;
 using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 namespace Cozinha
 {
@@ -17,6 +18,12 @@ namespace Cozinha
         public Ingrediente[] ordemIngredientes;
         [Min(1)] public float tempoLimite = 60;
         [Min(0.1f)] public float distanciaParaIniciar = 2.5f;
+        [Header("Fim da receita")]
+        [Tooltip("Nome da cena de destino (o próximo país). Deixe vazio para não trocar de cena.")]
+        public string cenaSeguinte;
+        [Tooltip("Cena da cutscene que passa antes do destino (ex.: cutsceneAviao). Vazio = vai direto.")]
+        public string cenaCutscene = "cutsceneAviao";
+        [Min(0)] public float atrasoTroca = 2f;
         [Header("Controles")]
         public Key teclaIniciar = Key.R;
         [Header("Interface")]
@@ -27,7 +34,7 @@ namespace Cozinha
         [Tooltip("Imagem com a ordem dos ingredientes (opcional)")]
         public GameObject imagemOrdem;
 
-        private bool cozinhando, terminou, animando, aguardandoInicio;
+        private bool cozinhando, terminou, animando, aguardandoInicio, trocandoCena;
         private int etapa;
         private float tempoRestante, duracaoMensagem;
         private Ingrediente ingredienteEmMovimento;
@@ -105,7 +112,7 @@ namespace Cozinha
 
         public void Iniciar()
         {
-            if (!enabled || !ConfiguracaoValida() ||
+            if (trocandoCena || !enabled || !ConfiguracaoValida() ||
                 Vector3.Distance(jogador.position, mesa.position) > distanciaParaIniciar) return;
             CancelarAdicao();
             foreach (Ingrediente ingrediente in ordemIngredientes) ingrediente.Restaurar();
@@ -147,7 +154,28 @@ namespace Cozinha
             if (etapa == ordemIngredientes.Length)
             {
                 terminou = true;
-                Mensagem($"Prato pronto! {teclaIniciar} para cozinhar novamente.");
+
+                if (!string.IsNullOrEmpty(cenaSeguinte))
+                {
+                    trocandoCena = true;
+                    Mensagem("Prato pronto!");
+                    yield return new WaitForSecondsRealtime(atrasoTroca);
+
+                    if (!string.IsNullOrEmpty(cenaCutscene))
+                    {
+                        // Guarda o destino e passa pela cutscene do avião primeiro.
+                        ViagemAviao.destino = cenaSeguinte;
+                        SceneManager.LoadScene(cenaCutscene);
+                    }
+                    else
+                    {
+                        SceneManager.LoadScene(cenaSeguinte);
+                    }
+                }
+                else
+                {
+                    Mensagem($"Prato pronto! {teclaIniciar} para cozinhar novamente.");
+                }
             }
         }
 

@@ -72,18 +72,6 @@ MonoBehaviour:
     text: "Que legal! Voc\xEA veio ao lugar certo. Vamos come\xE7ar?"
     portrait: {fileID: 0}
   - characterName: Camille
-    text: "Ah, que \xF3timo! Eu sou vegetariano tamb\xE9m."
-    portrait: {fileID: 0}
-  - characterName: Camille
-    text: "Ah, que \xF3timo! Eu sou vegetariano tamb\xE9m."
-    portrait: {fileID: 0}
-  - characterName: Lucas
-    text: "Ah, que \xF3timo! Eu sou vegetariano tamb\xE9m."
-    portrait: {fileID: 0}
-  - characterName: Camille
-    text: "Que legal! Voc\xEA veio ao lugar certo. Vamos come\xE7ar?"
-    portrait: {fileID: 0}
-  - characterName: Camille
     text: "Lucas, eu gostaria que voc\xEA me ajudasse a preparar o Nanaimo Bar, que
       \xE9 um doce t\xEDpico canadense. Ela \xE9 feita com uma base de bolacha, uma
       camada de creme e, por cima, uma cobertura de chocolate."
@@ -96,5 +84,5 @@ MonoBehaviour:
       e come\xE7ar por l\xE1."
     portrait: {fileID: 0}
   - characterName: Lucas
-    text: OK!
+    text: OK!!
     portrait: {fileID: 0}

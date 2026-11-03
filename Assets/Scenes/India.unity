@@ -5778,7 +5778,6 @@ Transform:
   - {fileID: 497355636}
   - {fileID: 1330609440}
   - {fileID: 1971396250}
-  - {fileID: 1889429574}
   m_Father: {fileID: 1678165971}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &671001251
@@ -9722,6 +9721,9 @@ MonoBehaviour:
   - {fileID: 1074749465}
   tempoLimite: 60
   distanciaParaIniciar: 40
+  cenaSeguinte: Marrocos
+  cenaCutscene: cutsceneAviao
+  atrasoTroca: 2
   teclaIniciar: 32
   textoTempo: {fileID: 1772541589}
   textoMensagem: {fileID: 490697905}
@@ -16162,81 +16164,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 340629419560121753, guid: 8d99185e17570a34980db737d1eb4cfd, type: 3}
   m_PrefabInstance: {fileID: 1871742361}
-  m_PrefabAsset: {fileID: 0}
---- !u!1001 &1889429573
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 660526901}
-    m_Modifications:
-    - target: {fileID: -8679921383154817045, guid: 4b7de6f02da49b24498301669975dbc0, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 4b7de6f02da49b24498301669975dbc0, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 4b7de6f02da49b24498301669975dbc0, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 4b7de6f02da49b24498301669975dbc0, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -25.3
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 4b7de6f02da49b24498301669975dbc0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.62
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 4b7de6f02da49b24498301669975dbc0, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 16.52
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 4b7de6f02da49b24498301669975dbc0, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.54960096
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 4b7de6f02da49b24498301669975dbc0, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 4b7de6f02da49b24498301669975dbc0, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0.8354274
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 4b7de6f02da49b24498301669975dbc0, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 4b7de6f02da49b24498301669975dbc0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 4b7de6f02da49b24498301669975dbc0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: -113.321
-      objectReference: {fileID: 0}
-    - target: {fileID: -8679921383154817045, guid: 4b7de6f02da49b24498301669975dbc0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 919132149155446097, guid: 4b7de6f02da49b24498301669975dbc0, type: 3}
-      propertyPath: m_Name
-      value: frigideira
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: -8700617353114198275, guid: 4b7de6f02da49b24498301669975dbc0, type: 3}
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 4b7de6f02da49b24498301669975dbc0, type: 3}
---- !u!4 &1889429574 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4b7de6f02da49b24498301669975dbc0, type: 3}
-  m_PrefabInstance: {fileID: 1889429573}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1899871023
 PrefabInstance:

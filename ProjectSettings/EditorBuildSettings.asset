@@ -32,5 +32,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RestauranteItalia.unity
     guid: 008e74b5a0867bf4ca0adf25ed313e05
+  - enabled: 1
+    path: Assets/Scenes/cutsceneAviao.unity
+    guid: 9d68441cfef2e3841b863336d02d0d50
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
