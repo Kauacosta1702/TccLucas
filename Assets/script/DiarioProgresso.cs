@@ -5,8 +5,10 @@ public static class DiarioProgresso
 {
     public static int faseMaxima = 0;
     public static bool aberto = false;
-    public static Key tecla = Key.L;
+    public static bool bloqueado = false; // true enquanto o jogador está no modo cozinha
+    public static Key tecla = Key.D;
     public static float timeScaleAnterior = 1f;
+    public static int frameFechado = -1;
 
     public static void Registrar(int fase)
     {
@@ -19,6 +21,8 @@ public static class DiarioProgresso
     {
         faseMaxima = 0;
         aberto = false;
+        bloqueado = false;
         timeScaleAnterior = 1f;
+        frameFechado = -1;
     }
 }

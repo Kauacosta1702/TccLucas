@@ -43,7 +43,6 @@ public class BancadaCozinha : MonoBehaviour
         float distance = Vector3.Distance(transform.position, player.position);
         bool inRangeNow = distance <= interactionRange;
 
-
         bool dialogoAtivo = DialogueManager.Instance != null && DialogueManager.Instance.IsDialogueActive();
 
         // Se estávamos esperando o diálogo acabar e agora ele fechou
@@ -53,7 +52,6 @@ public class BancadaCozinha : MonoBehaviour
             EntrarModoCozinha();
             return;
         }
-
 
         if (!emModoCozinha && !dialogoAtivo)
         {
@@ -75,7 +73,6 @@ public class BancadaCozinha : MonoBehaviour
             {
                 if (!dialogoJaOcorreu)
                 {
-
                     if (interactionPrompt != null)
                         interactionPrompt.SetActive(false);
 
@@ -92,7 +89,6 @@ public class BancadaCozinha : MonoBehaviour
                 }
                 else
                 {
-
                     EntrarModoCozinha();
                 }
             }
@@ -110,6 +106,7 @@ public class BancadaCozinha : MonoBehaviour
     void EntrarModoCozinha()
     {
         emModoCozinha = true;
+        DiarioProgresso.bloqueado = true; // Diário não abre durante a cozinha
 
         if (cameraBancada != null)
             cameraBancada.Priority = 20;
@@ -135,6 +132,7 @@ public class BancadaCozinha : MonoBehaviour
     void SairModoCozinha()
     {
         emModoCozinha = false;
+        DiarioProgresso.bloqueado = false;
 
         // Esconde os painéis e para a cozinha
         if (cozinhaManager != null)

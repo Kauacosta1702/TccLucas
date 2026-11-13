@@ -99,6 +99,7 @@ public class NPCInteraction : MonoBehaviour
     void EntrarModoCozinha()
     {
         emModoCozinha = true;
+        DiarioProgresso.bloqueado = true; // Diário não abre durante a cozinha
 
         if (interactionPrompt != null)
             interactionPrompt.SetActive(false);
@@ -116,6 +117,7 @@ public class NPCInteraction : MonoBehaviour
     void SairModoCozinha()
     {
         emModoCozinha = false;
+        DiarioProgresso.bloqueado = false;
 
         if (cozinhaManager != null)
             cozinhaManager.Sair();

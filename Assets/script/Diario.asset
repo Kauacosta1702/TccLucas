@@ -14,27 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::DiarioData
   entradas:
   - nomeComida: qrfwer
-    imagemComida: {fileID: 21300000, guid: 36281e0fee595c34caa3bbab2ce6ffcd, type: 3}
-    titulo: peru
+    imagemComida: {fileID: 21300000, guid: 08ab08a47bb9b89469ef05d3c9808b28, type: 3}
+    titulo: PAIS PERU
     texto: dfhgaedhaed
-    imagem: {fileID: 21300000, guid: 652ba3ea8dc9c4f4d8c2263a5c126f4a, type: 3}
+    imagem: {fileID: 21300000, guid: a908b4ee003304741ad082447487f61e, type: 3}
   - nomeComida: agaehgrethertq
-    imagemComida: {fileID: 21300000, guid: 36281e0fee595c34caa3bbab2ce6ffcd, type: 3}
-    titulo: canada
+    imagemComida: {fileID: 21300000, guid: 27b86126ffcda934c8adefdb0473d556, type: 3}
+    titulo: PAIS CANADA
     texto: erqhhvsbsdfggfsghshsfh
-    imagem: {fileID: 21300000, guid: 652ba3ea8dc9c4f4d8c2263a5c126f4a, type: 3}
+    imagem: {fileID: 21300000, guid: a908b4ee003304741ad082447487f61e, type: 3}
   - nomeComida: erhgrthrhtrwhwrt
-    imagemComida: {fileID: 21300000, guid: 36281e0fee595c34caa3bbab2ce6ffcd, type: 3}
-    titulo: italia
+    imagemComida: {fileID: 21300000, guid: 692880cedc3083c4a8ff5779a75e3919, type: 3}
+    titulo: PAIS ITALIA
     texto: dfhgaedhaed
-    imagem: {fileID: 21300000, guid: 652ba3ea8dc9c4f4d8c2263a5c126f4a, type: 3}
+    imagem: {fileID: 21300000, guid: a908b4ee003304741ad082447487f61e, type: 3}
   - nomeComida: qrfwer
-    imagemComida: {fileID: 21300000, guid: 36281e0fee595c34caa3bbab2ce6ffcd, type: 3}
-    titulo: india
+    imagemComida: {fileID: 21300000, guid: 107b48a0498a7e24f86720d07f60b0ff, type: 3}
+    titulo: PAIS INDIA
     texto: dsfhdfhdafsadfhgsadgsadgsagsadfgsdafgredaf
-    imagem: {fileID: 21300000, guid: 652ba3ea8dc9c4f4d8c2263a5c126f4a, type: 3}
+    imagem: {fileID: 21300000, guid: a908b4ee003304741ad082447487f61e, type: 3}
   - nomeComida: fgfhrw
     imagemComida: {fileID: 21300000, guid: 36281e0fee595c34caa3bbab2ce6ffcd, type: 3}
-    titulo: marrocos
+    titulo: PAIS MARROCOS
     texto: dfshhhhhhhhhhhhhhhhh
-    imagem: {fileID: 21300000, guid: 652ba3ea8dc9c4f4d8c2263a5c126f4a, type: 3}
+    imagem: {fileID: 21300000, guid: a908b4ee003304741ad082447487f61e, type: 3}
