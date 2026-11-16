@@ -13,25 +13,60 @@ MonoBehaviour:
   m_Name: Diario
   m_EditorClassIdentifier: Assembly-CSharp::DiarioData
   entradas:
-  - nomeComida: qrfwer
+  - nomeComida: "Ceviche: Releitura 100% vegetal do prato mais emblem\xE1tico do
+      Peru, o Ceviche Vegano substitui o peixe por ingredientes naturais de textura
+      firme, como cogumelos frescos, palmito ou manga verde. Marinado no suco c\xEDtrico
+      de lim\xE3o com cebola roxa, coentro, milho peruano e pimenta aj\xED, mant\xE9m
+      todo o frescor e a acidez marcante da receita original sem nenhum ingrediente
+      de origem animal."
     imagemComida: {fileID: 21300000, guid: 08ab08a47bb9b89469ef05d3c9808b28, type: 3}
     titulo: PAIS PERU
-    texto: dfhgaedhaed
+    texto: "Localizado na Am\xE9rica do Sul, o Peru \xE9 ber\xE7o da antiga civiliza\xE7\xE3o
+      Inca e famoso pela imponente Cordilheira dos Andes. Sua biodiversidade extraordin\xE1ria
+      oferece uma variedade imensa de superalimentos nativos, gr\xE3os andinos, frutas
+      ex\xF3ticas e tub\xE9rculos que formam a base de uma rica tradi\xE7\xE3o culin\xE1ria
+      baseada em vegetais."
     imagem: {fileID: 21300000, guid: a908b4ee003304741ad082447487f61e, type: 3}
-  - nomeComida: agaehgrethertq
+  - nomeComida: "Nanaimo: Criada na cidade de Nanaimo, a tradicional Barra de Nanaimo
+      ganha uma vers\xE3o totalmente livre de crueldade e latic\xEDnios. Essa sobremesa
+      cl\xE1ssica que n\xE3o vai ao forno combina tr\xEAs camadas irresist\xEDveis:
+      uma base crocante de cacau, nozes e coco, um creme de baunilha feito \xE0 base
+      de leite vegetal e uma cobertura brilhante de chocolate meio amargo."
     imagemComida: {fileID: 21300000, guid: 27b86126ffcda934c8adefdb0473d556, type: 3}
     titulo: PAIS CANADA
-    texto: erqhhvsbsdfggfsghshsfh
+    texto: "Ocupando grande parte da Am\xE9rica do Norte, o Canad\xE1 \xE9 conhecido
+      por suas vastas florestas, lagos cristalinos e pelo respeito \xE0 natureza.
+      Al\xE9m de suas paisagens preservadas, o pa\xEDs possui uma forte cena gastron\xF4mica
+      sustent\xE1vel, onde ingredientes locais como o xarope de bordo (maple syrup),
+      frutas silvestres e gr\xE3os ganham destaque na culin\xE1ria moderna."
     imagem: {fileID: 21300000, guid: a908b4ee003304741ad082447487f61e, type: 3}
-  - nomeComida: erhgrthrhtrwhwrt
+  - nomeComida: "Pizza Vegana: S\xEDmbolo m\xE1ximo da gastronomia italiana, a Pizza
+      Vegana celebra a pureza dos ingredientes vegetais. Preparada com massa artesanal
+      de fermenta\xE7\xE3o natural \u2014 livre de ovos ou leite \u2014, recebe uma
+      generosa camada de molho de tomates frescos, manjeric\xE3o arom\xE1tico, azeite
+      de oliva, azeitonas e vegetais assados, provando que o sabor aut\xEAntico vem
+      da terra. "
     imagemComida: {fileID: 21300000, guid: 692880cedc3083c4a8ff5779a75e3919, type: 3}
     titulo: PAIS ITALIA
-    texto: dfhgaedhaed
+    texto: "Situada no sul da Europa, a It\xE1lia \xE9 famosa por sua arquitetura
+      hist\xF3rica, canais emblem\xE1ticos como os de Veneza e pela dieta mediterr\xE2nea.
+      A cozinha tradicional italiana j\xE1 valoriza naturalmente ingredientes frescos
+      da terra, como tomates maduros, azeite de oliva extra virgem, ervas arom\xE1ticas,
+      massas artesanais e vegetais da esta\xE7\xE3o."
     imagem: {fileID: 21300000, guid: a908b4ee003304741ad082447487f61e, type: 3}
-  - nomeComida: qrfwer
+  - nomeComida: "Chana: Naturalmente vegano e altamente nutritivo, o Chana Masala
+      \xE9 um dos pilares da culin\xE1ria cotidiana da \xCDndia. Feito \xE0 base
+      de gr\xE3o-de-bico cozido em um molho encorpado de tomates, cebola, alho e
+      gengibre, o prato ganha um sabor profundo gra\xE7as a uma combina\xE7\xE3o
+      arom\xE1tica de especiarias puras como cominho, c\xFArcuma, coentro e garam
+      masala."
     imagemComida: {fileID: 21300000, guid: 107b48a0498a7e24f86720d07f60b0ff, type: 3}
     titulo: PAIS INDIA
-    texto: dsfhdfhdafsadfhgsadgsadgsagsadfgsdafgredaf
+    texto: "Localizada no sul da \xC1sia, a \xCDndia \xE9 uma terra de tradi\xE7\xF5es
+      milenares e monumentos grandiosos como o Taj Mahal. Com uma das maiores popula\xE7\xF5es
+      vegetarianas do mundo e filosofias antigas ligadas ao respeito pelos animais,
+      a cultura indiana desenvolveu a culin\xE1ria baseada em plantas e especiarias
+      mais rica e diversificada do planeta."
     imagem: {fileID: 21300000, guid: a908b4ee003304741ad082447487f61e, type: 3}
   - nomeComida: fgfhrw
     imagemComida: {fileID: 21300000, guid: 36281e0fee595c34caa3bbab2ce6ffcd, type: 3}
