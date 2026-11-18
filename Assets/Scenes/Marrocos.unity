@@ -5417,7 +5417,9 @@ MonoBehaviour:
   indiceFase: 4
   tecla: 26
   cenaDiario: DiarioProgresso
-  elementosDoIcone: []
+  elementosDoIcone:
+  - {fileID: 2029716292}
+  - {fileID: 895701925}
 --- !u!114 &681125883
 MonoBehaviour:
   m_ObjectHideFlags: 0

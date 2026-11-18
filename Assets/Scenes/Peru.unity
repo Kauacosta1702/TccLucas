@@ -613,8 +613,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -330, y: 56}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -320, y: 75}
+  m_SizeDelta: {x: 180, y: 50}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &119502825
 MonoBehaviour:
@@ -702,7 +702,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -383.4995, w: 0}
+  m_margin: {x: 32.90976, y: 0, z: -300.8877, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -7983,8 +7983,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -318, y: 28}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -380, y: 75}
+  m_SizeDelta: {x: 180, y: 50}
   m_Pivot: {x: 1, y: 0}
 --- !u!114 &979960901
 MonoBehaviour:
@@ -8615,7 +8615,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -40, y: 282}
+  m_AnchoredPosition: {x: -30, y: 290}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1079860382
@@ -8638,12 +8638,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "1 - 500g de grao de bico\n2- cebola roxa picada\n3- 4 Dentes de alho\n4-
-    2 colheres de olho vegetal\n5- 2 tomates medios picados\n6- 500g de extrato de
-    tomate\n7- 1 folha de louro\n8- 1 colher de cuentro em p\xF3\n9- 1 colher de
-    curcuma\n10- 1 colher de cominho em p\xF3\n11- 1/2 colher de pimenta do reino\n12-
-    1/2 de cravo em p\xF3\n13- 2 bagas de cardamomo\n14- 1 colher de noz-moscada
-    em p\xF3\n15- 1 colher de erva-doce em gr\xE3os\n16- Sal a gosto "
+  m_text: "1 - \xBD banana-da-terra madura cozida\n2- Folhas de coentro\n3- \xBD
+    cebola roxa\n4- Pitada de sal marinho\n5- Pimenta dedo de mo\xE7a em rodelas
+    ou cubinhos\n6- 1L Leite de coco\n7- Suco de 2 lim\xF5es taiti\n8- 1 talo de
+    aipo\n9- \xBD colher de ch\xE1 de gengibre\n10- Dois dentes de alho\n11- \xBD
+    Cebola roxa\n12- 1 pitada de sa\n13- \xBD pimenta dedo de mo\xE7a "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -8670,8 +8669,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 21.3
-  m_fontSizeBase: 21.3
+  m_fontSize: 27.5
+  m_fontSizeBase: 27.5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8680,7 +8679,7 @@ MonoBehaviour:
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: 2
   m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -8709,7 +8708,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: -75.046814, w: 18.58081}
+  m_margin: {x: -44.749054, y: 0, z: -103.18097, w: 18.58081}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -10079,7 +10078,9 @@ MonoBehaviour:
   indiceFase: 0
   tecla: 26
   cenaDiario: DiarioProgresso
-  elementosDoIcone: []
+  elementosDoIcone:
+  - {fileID: 1827931090}
+  - {fileID: 132523212}
 --- !u!114 &1311899354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10428,6 +10429,7 @@ MonoBehaviour:
   - {fileID: 301207412}
   - {fileID: 2105996579}
   tempoLimite: 60
+  tempoMemorizar: 20
   distanciaParaIniciar: 40
   cenaSeguinte: Canada
   cenaCutscene: cutsceneAviao
@@ -14730,7 +14732,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1901116252
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15871,11 +15873,11 @@ RectTransform:
   - {fileID: 1079860381}
   m_Father: {fileID: 1531760883}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -14, y: -3}
-  m_SizeDelta: {x: 350, y: 700}
-  m_Pivot: {x: 0, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -90, y: 0}
+  m_SizeDelta: {x: 450, y: 750}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2022136642
 MonoBehaviour:
   m_ObjectHideFlags: 0
