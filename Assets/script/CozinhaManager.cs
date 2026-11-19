@@ -22,6 +22,13 @@ namespace Cozinha
         [Tooltip("Segundos que a receita fica no centro da tela antes de poder cozinhar. 0 = não mostra.")]
         [Min(0)] public float tempoMemorizar = 10f; // Quanto tempo o jogador tem para decorar a ordem
         [Min(0.1f)] public float distanciaParaIniciar = 2.5f; // Quão perto da mesa precisa estar
+        [Header("Mistura (opcional - só nas cenas que tiverem)")]
+        [Tooltip("Depois de qual ingrediente a mistura acontece (ex.: 3 = depois do 3º, o último da massa). 0 = esta cena NÃO tem mistura.")]
+        [Min(0)] public int misturaAposIngrediente = 0;
+        [Tooltip("Quantos segundos a nuvem fica na tela misturando (conta a partir de quando ela aparece).")]
+        [Min(1)] public float tempoMistura = 10f;
+        [Tooltip("Marcado: a comida só muda de fase no FIM da mistura (a nuvem cobre a troca). Desmarcado: muda logo no começo, quando a nuvem aparece.")]
+        public bool trocarModeloAposMistura = true;
         [Header("Fim da receita")]
         [Tooltip("Nome da cena de destino (o próximo país). Deixe vazio para não trocar de cena.")]
         public string cenaSeguinte;
@@ -44,6 +51,7 @@ namespace Cozinha
         private int etapa;                                 // Em qual ingrediente da lista estamos (0, 1, 2...)
         private float tempoRestante, duracaoMensagem;      // Cronômetro e tempo da mensagem na tela
         private bool memorizando;                          // true enquanto a receita está na tela para o jogador decorar
+        private bool misturando;                           // true durante a mistura (o cronômetro fica parado)
         private float tempoMemorizacao;                    // Contagem regressiva da memorização
         private Ingrediente ingredienteEmMovimento;        // Ingrediente que está voando agora
         private Camera cameraPrincipal;                    // A Main Camera (usada para o clique)
@@ -100,7 +108,7 @@ namespace Cozinha
             }
 
             // Se já terminou ou o jogo está pausado (diário aberto), também para aqui
-            if (terminou || Time.timeScale == 0) return;
+            if (terminou || misturando || Time.timeScale == 0) return;
 
             // ----- Cronômetro -----
             // Time.deltaTime = tempo que passou desde o último frame
@@ -226,10 +234,19 @@ namespace Cozinha
         // Corrotina: executa a animação e depois decide o que acontece em seguida
         private IEnumerator AdicionarIngrediente(Ingrediente ingrediente)
         {
-            // Espera a animação do ingrediente terminar antes de continuar
-            yield return animacao.Adicionar(ingrediente, etapa + 1);
+            // Este é o ingrediente que tem mistura? (só se a cena configurou. Nas outras, é sempre false)
+            // "etapa" ainda não foi somada, então o ingrediente atual é o número etapa + 1
+            bool comMistura = misturaAposIngrediente > 0 && etapa + 1 == misturaAposIngrediente;
+            if (comMistura) misturando = true; // Pausa o cronômetro durante a mistura
 
-            etapa++;                     // Vai para o próximo ingrediente
+            // Espera a animação do ingrediente terminar antes de continuar.
+            // Com mistura, a nuvem fica na tela por "tempoMistura" segundos (com a mensagem "Misturando...").
+            // Sem mistura (0), é a nuvem normal de sempre.
+            yield return animacao.Adicionar(ingrediente, etapa + 1,
+                                            comMistura ? tempoMistura : 0f, trocarModeloAposMistura);
+            misturando = false; // Volta o cronômetro
+
+            etapa++;                   // Vai para o próximo ingrediente
             animando = false;            // Libera os cliques de novo
             ingredienteEmMovimento = null;
 
@@ -270,6 +287,7 @@ namespace Cozinha
         private void CancelarAdicao()
         {
             StopAllCoroutines(); // Para todas as corrotinas deste script
+            misturando = false;  // Se estava misturando, para também
             if (animacao != null)
             {
                 animacao.Cancelar();              // Some com a nuvem
