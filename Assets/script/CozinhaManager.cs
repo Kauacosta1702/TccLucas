@@ -259,7 +259,7 @@ namespace Cozinha
                 if (!string.IsNullOrEmpty(cenaSeguinte))
                 {
                     trocandoCena = true; // Bloqueia o "tentar de novo" durante a espera
-                    Mensagem("Prato pronto!");
+                    Mensagem("Prato Finalizado! Agora parta para a proxima aventura");
                     // Espera alguns segundos (em tempo real, mesmo se o jogo estiver pausado)
                     yield return new WaitForSecondsRealtime(atrasoTroca);
 
