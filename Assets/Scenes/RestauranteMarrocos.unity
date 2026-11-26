@@ -13461,7 +13461,7 @@ MonoBehaviour:
   misturaAposIngrediente: 0
   tempoMistura: 1
   trocarModeloAposMistura: 0
-  cenaSeguinte: Italia
+  cenaSeguinte: Cutscene Final
   cenaCutscene: cutsceneAviao
   atrasoTroca: 5
   teclaIniciar: 32

@@ -25,7 +25,7 @@ public class MenuManager : MonoBehaviour
 
     public void Jogar()
     {
-        SceneManager.LoadScene("Peru");
+        SceneManager.LoadScene("Cutscene Inicial");
     }
 
     public void AbrirOpçoes()

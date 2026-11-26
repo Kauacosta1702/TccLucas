@@ -21,7 +21,7 @@ public static class DiarioProgresso
     // Zera ao apertar Play no editor, para não herdar valores da vez anterior.
     // Este atributo faz a Unity chamar o método sozinha, quando o jogo inicia
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
-    private static void Resetar()
+    public static void Resetar()
     {
         faseMaxima = 0;
         aberto = false;
